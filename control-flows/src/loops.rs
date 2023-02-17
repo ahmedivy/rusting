@@ -8,8 +8,18 @@ pub fn run() {
     loop {
         x += 1;
         println!("x = {x}");
-        if x == 10000000 {
+        if x == 10 {
             break;
         }
     }
+
+    // Return value from loop
+    let result = loop {
+        x += 1;
+        println!("x = {x}");
+        if x == 20 {
+            break x * 2;
+        }
+    };
+    println!("Result: {result}");
 }
