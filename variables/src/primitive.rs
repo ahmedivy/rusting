@@ -1,4 +1,4 @@
-fn main() {
+pub fn run() {
 
     // Int
     let mut x = 5;
