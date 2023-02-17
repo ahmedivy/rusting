@@ -10,7 +10,7 @@ fn main() {
     {
         let country = String::from("Pakistan");
         println!("Country: {country}");
-    }
+    } 
     // println!("Country: {country}"); // Error: country is out of scope
 
     let s1 = String::from("Hello");
