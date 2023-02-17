@@ -8,4 +8,11 @@ fn main() {
     } else {
         println!("You can not vote.");
     }
+
+    // let x = 0;
+    // Rust will not convert zero and one to boolean like in Ruby or Python
+    // if x {
+    //     println!("x is true.");
+    // }
+    
 }
