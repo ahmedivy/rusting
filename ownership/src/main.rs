@@ -15,6 +15,7 @@ fn main() {
 
     let s1 = String::from("Hello");
     let s2 = s1;
+    println!("s2: {s2}");
 
     // s1 is moved to s2 and can no longer be used
     // Bcz both s1 and s2 are pointing to same memory 
