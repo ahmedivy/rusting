@@ -6,6 +6,9 @@ fn main() {
     let mut s = String::from("hello");
     change(&mut s);
     println!("The value of s is '{s}'.");
+
+    // Dangling References
+    // let reference_to_nothing = dangle();
 }
 
 fn calculate_length(s: &String) -> usize {
@@ -17,3 +20,9 @@ fn calculate_length(s: &String) -> usize {
 fn change(some_string: &mut String) {
     some_string.push_str(", world");
 }
+
+// fn dangle() -> &String {
+//     let s = String::from("hello");
+
+//     &s
+// }
