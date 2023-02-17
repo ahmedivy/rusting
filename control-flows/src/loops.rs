@@ -18,6 +18,7 @@ pub fn run() {
         x += 1;
         println!("x = {x}");
         if x == 20 {
+            // Expression after break is the return value
             break x * 2;
         }
     };
