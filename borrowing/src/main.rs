@@ -25,4 +25,5 @@ fn change(some_string: &mut String) {
 //     let s = String::from("hello");
 
 //     &s
-// }
+// } // Here, s goes out of scope, and is dropped. Its memory goes away.
+// Danger!
