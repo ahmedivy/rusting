@@ -22,4 +22,9 @@ pub fn run() {
         }
     };
     println!("Result: {result}");
+
+    while x < 100 {
+        x += 1;
+        println!("x = {x}");
+    }
 }
