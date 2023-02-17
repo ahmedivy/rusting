@@ -1,7 +1,7 @@
 mod if_else;
-mod loop;
+mod loops;
 
 fn main() {
-    if_else::run();
-    loop::run();
+    // if_else::run();
+    loops::run();
 }
