@@ -39,5 +39,5 @@ pub fn run() {
 
     let element = a[index];
 
-    println!("The value of the element at index {index} is: {element}");
+    println!("The value of the element at index {index} is: {element}.");
 }
