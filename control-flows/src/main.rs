@@ -15,4 +15,6 @@ fn main() {
     //     println!("x is true.");
     // }
     
+    // Shorthand if
+    let is_of_age = if age >= 18 { true } else { false };
 }
