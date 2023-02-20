@@ -1,3 +1,5 @@
+mod example;
+
 #[derive(Debug)]
 enum IpAddrKind {
     V4(u8, u8, u8, u8),
@@ -16,4 +18,6 @@ fn main() {
 
     println!("home: {:?}", home);
     println!("loopback: {:?}", loopback);
+
+    example::run();
 }
